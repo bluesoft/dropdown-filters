@@ -8,19 +8,17 @@ Based on <a href="https://github.com/jmrocela/experiments/blob/master/select.htm
 Usage:
 
 <i>HTML code:</i>
-<pre><code>
-<label for="selectA">Genre:</label>
+<pre><code>&lt;label for="selectA">Genre:</label>
 
-<select id="selectA">
-  <option value="1">Action</option>
-	<option value="2">Comedy</option>
-	<option value="3">Family</option>
-</select>
+&lt;select id="selectA">
+  &lt;option value="1">Action</option>
+	&lt;option value="2">Comedy</option>
+	&lt;option value="3">Family</option>
+&lt;/select>
 </code></pre>
 
 <i>jQuery initialization:</i>
-<pre><code>
-$(function() {
+<pre><code>$(function() {
 	$('select').dropdownFilters();
 });
 </code></pre>
