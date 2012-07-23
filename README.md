@@ -8,12 +8,12 @@ Based on <a href="https://github.com/jmrocela/experiments/blob/master/select.htm
 Usage:
 
 <i>HTML code:</i>
-<pre><code>&lt;label for="selectA">Genre:</label>
+<pre><code>&lt;label for="selectA">Genre:&lt;/label>
 
 &lt;select id="selectA">
-  &lt;option value="1">Action</option>
-	&lt;option value="2">Comedy</option>
-	&lt;option value="3">Family</option>
+  &lt;option value="1">Action&lt;/option>
+	&lt;option value="2">Comedy&lt;/option>
+	&lt;option value="3">Family&lt;/option>
 &lt;/select>
 </code></pre>
 
