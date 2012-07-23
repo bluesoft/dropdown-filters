@@ -9,6 +9,7 @@ Dependencies
 ------
 
 <a href="http://twitter.github.com/bootstrap/">Bootstrap by Twitter</a>
+
 <a href="http://twitter.github.com/bootstrap/javascript.html#dropdowns">Bootstraps's Dropdown plugin</a>
 
 
