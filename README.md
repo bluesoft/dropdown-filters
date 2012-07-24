@@ -45,4 +45,4 @@ Usage
 
 Screenshot
 -----
-<img src="https://github.com/bluesoft/dropdown-filters/blob/master/screenshot.jpg" />
+<img src="https://github.com/bluesoft/dropdown-filters/raw/master/screenshot.jpg" />
