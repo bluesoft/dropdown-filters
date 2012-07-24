@@ -42,3 +42,7 @@ Usage
 
 .filter-value {
 }</code></pre>
+
+Screenshot
+-----
+<img src="https://github.com/bluesoft/dropdown-filters/blob/master/screenshot.jpg" />
