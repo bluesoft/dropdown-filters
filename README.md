@@ -31,3 +31,14 @@ Usage
 	$('select').dropdownFilters();
 });
 </code></pre>
+
+<i>CSS</i>
+<pre><code>.filter-title {
+	font-weight: bold;
+	font-size: 11px;
+	color: gray;
+	text-align: left;
+}
+
+.filter-value {
+}</code></pre>
