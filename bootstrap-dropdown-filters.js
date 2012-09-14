@@ -18,7 +18,7 @@
 					}
 				});
 				
-				select.html('<input type="hidden" onchange="' + $(e).attr('onchange') + '" value="' + $(e).val() + '" name="' + $(e).attr('name') + '" id="' + $(e).attr('id') + '" class="' + $(e).attr('class') + '" /><a class="btn" href="javascript:;"><span class="filter-title"></span><span class="filter-value">' + textValue + '</span></a><a class="btn dropdown-toggle" data-toggle="dropdown" href="javascript:;"><i class="caret"></i></a><ul class="dropdown-menu"></ul>');
+				select.html('<input type="hidden" onchange="' + $(e).attr('onchange') + '" value="' + $(e).val() + '" name="' + $(e).attr('name') + '" id="' + $(e).attr('id') + '" class="' + $(e).attr('class') + '" /><a class="btn" data-toggle="dropdown" href="javascript:;"><span class="filter-title"></span><span class="filter-value">' + textValue + '</span></a><a class="btn dropdown-toggle" data-toggle="dropdown" href="javascript:;"><i class="caret"></i></a><ul class="dropdown-menu"></ul>');
 				$(e).find('option').each(function(o,q) {
 					var text = $(q).text();
 					select.find('.dropdown-menu').append('<li><a href="javascript:;" data-value="' + $(q).attr('value') + '">' + text + '</a></li>');
