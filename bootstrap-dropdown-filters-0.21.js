@@ -60,7 +60,7 @@
 		return elements.each(function () {
 			var $this = $(this);
 			$this.children('a:first').children('span.filter-value').html(json.selected.title);
-			$this.children('input').val(json.selected.value);
+			$this.next('input').val(json.selected.value);
 
 			var dropdownMenu = '';
 			$(json.options).each(function() {
